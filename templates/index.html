@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>蓝谷基金净值</title>
+    <link rel="shortcut icon" href="{{ static_url('icon/jinzha.png') }}" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="{{ static_url('icon/app-icon.png') }}"/>
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ static_url('icon/app-icon.png') }}"/>
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ static_url('icon/app-icon.png') }}"/>
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ static_url('icon/app-icon.png') }}"/>
+    <link rel="stylesheet" href="{{ static_url('css/index.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+</head>
+<body>
+<div class="title">
+    <img src="{{ static_url('icon/jinzha.png') }}" alt="蓝谷基金">
+    <h1>蓝谷基金</h1>
+</div>
+
+<div class="flex">
+    <button class="freq" value="1T">1m</button>
+    <button class="freq" value="5T">5m</button>
+    <button class="freq red" value="1h">1H</button>
+    <button class="freq" value="4H">4H</button>
+    <button class="freq" value="1D">1D</button>
+    <button class="freq" value="1M">1M</button>
+</div>
+
+<div id="container"></div>
+<script src="{{ static_url('js/jquery-1.8.3.min.js') }}" type="text/javascript"></script>
+<script src="{{ static_url('js/highstock.js') }}" type="text/javascript"></script>
+<script src="{{ static_url('js/exporting.js') }}" type="text/javascript"></script>
+<script src="{{ static_url('js/map.js') }}" type="text/javascript"></script>
+<script src="{{ static_url('js/index.js') }}" type="text/javascript"></script>
+</body>
+</html>

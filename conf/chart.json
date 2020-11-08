@@ -1,0 +1,88 @@
+{
+  "lang": {
+    "months": [
+      "\u4e00\u6708",
+      "\u4e8c\u6708",
+      "\u4e09\u6708",
+      "\u56db\u6708",
+      "\u4e94\u6708",
+      "\u516d\u6708",
+      "\u4e03\u6708",
+      "\u516b\u6708",
+      "\u4e5d\u6708",
+      "\u5341\u6708",
+      "\u5341\u4e00\u6708",
+      "\u5341\u4e8c\u6708"
+    ],
+    "shortMonths": [
+      "1\u6708",
+      "2\u6708",
+      "3\u6708",
+      "4\u6708",
+      "5\u6708",
+      "6\u6708",
+      "7\u6708",
+      "8\u6708",
+      "9\u6708",
+      "10\u6708",
+      "11\u6708",
+      "12\u6708"
+    ],
+    "weekdays": [
+      "\u661f\u671f\u5929",
+      "\u661f\u671f\u4e00",
+      "\u661f\u671f\u4e8c",
+      "\u661f\u671f\u4e09",
+      "\u661f\u671f\u56db",
+      "\u661f\u671f\u4e94",
+      "\u661f\u671f\u516d"
+    ]
+  },
+  "rangeSelector": {
+    "buttons": [],
+    "inputEnabled": false
+  },
+  "title": {
+    "text": "\u91d1\u5412\u51c0\u503c"
+  },
+  "navigator": {
+    "enabled": false
+  },
+  "scrollbar": {
+    "enabled": false
+  },
+  "credits": {
+    "enabled": false
+  },
+  "tooltip": {
+    "split": false,
+    "xDateFormat": "%Y-%m-%d %H:%M %A",
+    "valueDecimals": 2,
+    "valueSuffix": " \u5143",
+    "shared": true
+  },
+  "xAxis": {
+    "type": "datetime",
+    "dateTimeLabelFormats": {
+      "year": "%m-%d %H:%M",
+      "month": "%m-%d %H:%M",
+      "day": "%m-%d %H:%M",
+      "hour": "%m-%d %H:%M",
+      "minute": "%m-%d %H:%M"
+    }
+  },
+  "yAxis": {
+    "title": {
+      "text": "\u51c0\u503c\uff08\u5143\uff09"
+    }
+  },
+  "exporting": {
+    "enabled": false
+  },
+  "series": [
+    {
+      "name": "\u91d1\u5412\u51c0\u503c",
+      "data": []
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    /*font-weight: bold;*/
+    /* font-weight: 100; 100-600都是加粗 可以自己选 */
+}
+
+/*屏幕适配*/
+@media only screen and (min-width: 320px) {
+    html {
+        font-size: 8.5333px
+    }
+
+    #reset-chart {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    html {
+        font-size: 8.5333px
+    }
+
+    #reset-chart {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    html {
+        font-size: 10px
+    }
+
+    #reset-chart {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 8.5333px
+    }
+
+    #reset-chart {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 8.5333px
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+/*>=1024的设备*/
+
+@media only screen and (min-width: 1100px) {
+    html {
+        font-size: 9.12px
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+/*>=1100的设备*/
+@media only screen and (min-width: 1280px) {
+    html {
+        font-size: 11px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+/*>=1280的设备*/
+
+@media only screen and (min-width: 1366px) {
+
+    html {
+        font-size: 11.4px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    html {
+        font-size: 12px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+@media only screen and  (min-width: 1680px) {
+    html {
+        font-size: 14px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 2048px) {
+    html {
+        font-size: 17.1px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 2048px) {
+    html {
+        font-size: 17.1px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    html {
+        font-size: 21.33px;
+    }
+
+    #reset-chart {
+        display: inline-block;
+    }
+}
+
+#container {
+    height: 50rem;
+}
+
+.red {
+    background-color: red;
+}
